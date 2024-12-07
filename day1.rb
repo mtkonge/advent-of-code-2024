@@ -56,5 +56,3 @@ def part_2
   end
   puts similarity_score
 end
-
-part_2
