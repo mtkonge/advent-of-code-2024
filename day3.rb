@@ -1,5 +1,4 @@
 
-
 def part_1
     memory = File.read("day3.txt")
     muls = memory.scan(/mul\(\d{1,3},\d{1,3}\)|/)
@@ -31,5 +30,3 @@ def part_2
     end
     puts sum
 end
-
-part_2
